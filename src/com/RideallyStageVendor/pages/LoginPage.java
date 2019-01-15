@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 import com.RideallyStageVendor.generic.BasePage;
 
@@ -18,6 +19,10 @@ public class LoginPage extends BasePage
 	
 	@FindBy(xpath="//button[.='Login']")
 	private WebElement loginBTN;
+	
+	@FindBy(xpath="//h3[.='Login']")
+	private WebElement LoginPageTitle;
+	
 	
 	@FindBy(xpath="//div[.='Invalid Login Details']")
 	private WebElement errormessage;	
@@ -35,6 +40,12 @@ public class LoginPage extends BasePage
 		VerifyTitle(eTitle);
 	}
 	
+	public void verifyElementTitle()
+	{
+		VerifyElement(LoginPageTitle);
+	 String text=LoginPageTitle.getText();
+	 Reporter.log("Element Name is:"+text,true);
+	}
 	public void enterUserName(String un)
 	{
 		usernameTB.sendKeys(un);

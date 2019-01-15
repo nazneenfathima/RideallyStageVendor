@@ -1,68 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Verifying title:RideAlly -Rideally: Taxi Provider]]>
-    </line>
-    <line>
-      <![CDATA[Title is matchingRideAlly -Rideally: Taxi Provider]]>
-    </line>
-    <line>
-      <![CDATA[Valid username:yescabs]]>
-    </line>
-    <line>
-      <![CDATA[Valid password:123456]]>
-    </line>
-    <line>
-      <![CDATA[Title is matchingRideAlly -Rideally: Taxi Provider]]>
-    </line>
-    <line>
-      <![CDATA[Title is matchingRideAlly -Rideally: Taxi Provider]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22546" started-at="2019-01-02T19:38:07Z" finished-at="2019-01-02T19:38:29Z">
+  <suite name="Default suite" duration-ms="46729" started-at="2019-01-15T02:43:50Z" finished-at="2019-01-15T02:44:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22546" started-at="2019-01-02T19:38:07Z" finished-at="2019-01-02T19:38:29Z">
-      <class name="com.RideallyStageVendor.tests.ValidLoginLogoutTest">
-        <test-method status="PASS" signature="PreCondition()[pri:0, instance:com.RideallyStageVendor.tests.ValidLoginLogoutTest@556333]" name="PreCondition" is-config="true" duration-ms="6692" started-at="2019-01-02T19:38:07Z" finished-at="2019-01-02T19:38:14Z">
+    <test name="Default test" duration-ms="46729" started-at="2019-01-15T02:43:50Z" finished-at="2019-01-15T02:44:36Z">
+      <class name="com.RideallyStageVendor.tests.NewNumbBookingTest">
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="PreCondition" is-config="true" duration-ms="7935" started-at="2019-01-15T02:43:50Z" finished-at="2019-01-15T02:43:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreCondition -->
-        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:com.RideallyStageVendor.tests.ValidLoginLogoutTest@556333]" name="testValidLoginLogout" duration-ms="13735" started-at="2019-01-02T19:38:14Z" finished-at="2019-01-02T19:38:27Z">
+        <test-method status="PASS" signature="testNewNumbBooking()[pri:4, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="testNewNumbBooking" duration-ms="37940" started-at="2019-01-15T02:43:58Z" finished-at="2019-01-15T02:44:35Z">
           <reporter-output>
-            <line>
-              <![CDATA[Verifying title:RideAlly -Rideally: Taxi Provider]]>
-            </line>
-            <line>
-              <![CDATA[Title is matchingRideAlly -Rideally: Taxi Provider]]>
-            </line>
-            <line>
-              <![CDATA[Valid username:yescabs]]>
-            </line>
-            <line>
-              <![CDATA[Valid password:123456]]>
-            </line>
-            <line>
-              <![CDATA[Title is matchingRideAlly -Rideally: Taxi Provider]]>
-            </line>
-            <line>
-              <![CDATA[Title is matchingRideAlly -Rideally: Taxi Provider]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- testValidLoginLogout -->
-        <test-method status="PASS" signature="PostCondition(org.testng.ITestResult)[pri:0, instance:com.RideallyStageVendor.tests.ValidLoginLogoutTest@556333]" name="PostCondition" is-config="true" duration-ms="2069" started-at="2019-01-02T19:38:27Z" finished-at="2019-01-02T19:38:29Z">
+        </test-method> <!-- testNewNumbBooking -->
+        <test-method status="PASS" signature="PostCondition(org.testng.ITestResult)[pri:0, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="PostCondition" is-config="true" duration-ms="781" started-at="2019-01-15T02:44:35Z" finished-at="2019-01-15T02:44:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLoginLogout status=SUCCESS method=ValidLoginLogoutTest.testValidLoginLogout()[pri:1, instance:com.RideallyStageVendor.tests.ValidLoginLogoutTest@556333] output=Verifying title:RideAlly -Rideally: Taxi Provider]]]>
+                <![CDATA[[TestResult name=testNewNumbBooking status=SUCCESS method=NewNumbBookingTest.testNewNumbBooking()[pri:4, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostCondition -->
-      </class> <!-- com.RideallyStageVendor.tests.ValidLoginLogoutTest -->
+      </class> <!-- com.RideallyStageVendor.tests.NewNumbBookingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

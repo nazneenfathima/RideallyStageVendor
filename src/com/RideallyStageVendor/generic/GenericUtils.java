@@ -2,13 +2,19 @@ package com.RideallyStageVendor.generic;
 
 import java.io.File;
 import java.io.IOException;
+import java.sql.Driver;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
-import org.apache.bcel.generic.Select;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
 
 public class GenericUtils {
 public static void getscreenshot(WebDriver driver,String name)  
@@ -22,19 +28,43 @@ public static void getscreenshot(WebDriver driver,String name)
 	catch (IOException e) {
 	}
 }
+
 public static void SelectByIndex(WebElement element,int index)
 {
-	org.openqa.selenium.support.ui.Select sel=new org.openqa.selenium.support.ui.Select(element);
+	Select sel=new Select(element);
 	sel.selectByIndex(index);
 }
-public static void SelectByValue(WebElement element, String value)
+public static void SelectByValue(WebElement element,String value)
 {
-	org.openqa.selenium.support.ui.Select sel=new org.openqa.selenium.support.ui.Select(element);
+	Select sel=new Select(element);
 	sel.selectByValue(value);
 }
-public static void SelectByVisibleText(WebElement element, String text)
+public static void SelectByVisbleText(WebElement element,String text)
 {
-	org.openqa.selenium.support.ui.Select sel=new org.openqa.selenium.support.ui.Select(element);
+	Select sel=new Select(element);
 	sel.selectByVisibleText(text);
+}
+public static void SelecyByStartDate(WebElement driver)
+{
+	Date date=new Date();
+	SimpleDateFormat s1=new SimpleDateFormat("d");
+	String day=s1.format(date);
+	SimpleDateFormat s2=new SimpleDateFormat("MMMM");
+	String month=s2.format(date);
+	String xp="//a[.='"+day+"']";
+    driver.findElement(By.xpath(xp)).click();
+}
+public static void SelectByReturnDate(WebElement driver, int days)
+{
+	Date date=new Date();
+	SimpleDateFormat s1=new SimpleDateFormat("d");
+	Calendar cal=Calendar.getInstance();
+	cal.setTime(date);
+	cal.add(Calendar.DATE, days);
+	date=cal.getTime();
+	String day=s1.format(date);
+	
+	String xp="//a[.='"+day+"']";
+    driver.findElement(By.xpath(xp)).click();
 }
 }
