@@ -28,7 +28,6 @@ public static void getscreenshot(WebDriver driver,String name)
 	catch (IOException e) {
 	}
 }
-
 public static void SelectByIndex(WebElement element,int index)
 {
 	Select sel=new Select(element);

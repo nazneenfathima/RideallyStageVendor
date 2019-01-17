@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46729" started-at="2019-01-15T02:43:50Z" finished-at="2019-01-15T02:44:36Z">
+  <suite name="Default suite" duration-ms="50533" started-at="2019-01-15T06:28:20Z" finished-at="2019-01-15T06:29:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46729" started-at="2019-01-15T02:43:50Z" finished-at="2019-01-15T02:44:36Z">
+    <test name="Default test" duration-ms="50533" started-at="2019-01-15T06:28:20Z" finished-at="2019-01-15T06:29:10Z">
       <class name="com.RideallyStageVendor.tests.NewNumbBookingTest">
-        <test-method status="PASS" signature="PreCondition()[pri:0, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="PreCondition" is-config="true" duration-ms="7935" started-at="2019-01-15T02:43:50Z" finished-at="2019-01-15T02:43:58Z">
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="PreCondition" is-config="true" duration-ms="9948" started-at="2019-01-15T06:28:20Z" finished-at="2019-01-15T06:28:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreCondition -->
-        <test-method status="PASS" signature="testNewNumbBooking()[pri:4, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="testNewNumbBooking" duration-ms="37940" started-at="2019-01-15T02:43:58Z" finished-at="2019-01-15T02:44:35Z">
+        <test-method status="PASS" signature="testNewNumbBooking()[pri:4, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="testNewNumbBooking" duration-ms="40386" started-at="2019-01-15T06:28:30Z" finished-at="2019-01-15T06:29:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNewNumbBooking -->
-        <test-method status="PASS" signature="PostCondition(org.testng.ITestResult)[pri:0, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="PostCondition" is-config="true" duration-ms="781" started-at="2019-01-15T02:44:35Z" finished-at="2019-01-15T02:44:36Z">
+        <test-method status="PASS" signature="PostCondition(org.testng.ITestResult)[pri:0, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="PostCondition" is-config="true" duration-ms="166" started-at="2019-01-15T06:29:10Z" finished-at="2019-01-15T06:29:10Z">
           <params>
             <param index="0">
               <value>
