@@ -16,6 +16,7 @@ public void testInvalidLoginLogout()
 	String expectedErrorMSG=ExcelData.getData(file_path, "TC02", 1, 2);
 	LoginPage lp=new LoginPage(driver);
 	int rc=ExcelData.getRowCount(file_path, "TC02");
+	
 	for(int i=1;i<=rc;i++)
 	{
 		String user=ExcelData.getData(file_path, "TC02", i, 0);
@@ -36,7 +37,6 @@ public void testInvalidLoginLogout()
 		String actualerrormsg=lp.verifyErrorMessage();
 		Assert.assertEquals(actualerrormsg, expectedErrorMSG);
 		Reporter.log("Element is exactly matching",true);
-	
 	}
 	
 }

@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Element is not selectedConfirmed]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50533" started-at="2019-01-15T06:28:20Z" finished-at="2019-01-15T06:29:10Z">
+  <suite name="Default suite" duration-ms="42756" started-at="2019-01-28T05:05:25Z" finished-at="2019-01-28T05:06:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50533" started-at="2019-01-15T06:28:20Z" finished-at="2019-01-15T06:29:10Z">
-      <class name="com.RideallyStageVendor.tests.NewNumbBookingTest">
-        <test-method status="PASS" signature="PreCondition()[pri:0, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="PreCondition" is-config="true" duration-ms="9948" started-at="2019-01-15T06:28:20Z" finished-at="2019-01-15T06:28:30Z">
+    <test name="Default test" duration-ms="42756" started-at="2019-01-28T05:05:25Z" finished-at="2019-01-28T05:06:08Z">
+      <class name="com.RideallyStageVendor.tests.AddBookingTest">
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:com.RideallyStageVendor.tests.AddBookingTest@556333]" name="PreCondition" is-config="true" duration-ms="6843" started-at="2019-01-28T05:05:25Z" finished-at="2019-01-28T05:05:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreCondition -->
-        <test-method status="PASS" signature="testNewNumbBooking()[pri:4, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="testNewNumbBooking" duration-ms="40386" started-at="2019-01-15T06:28:30Z" finished-at="2019-01-15T06:29:10Z">
+        <test-method status="PASS" signature="testAddBooking()[pri:3, instance:com.RideallyStageVendor.tests.AddBookingTest@556333]" name="testAddBooking" duration-ms="35539" started-at="2019-01-28T05:05:32Z" finished-at="2019-01-28T05:06:08Z">
           <reporter-output>
+            <line>
+              <![CDATA[Element is not selectedConfirmed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testNewNumbBooking -->
-        <test-method status="PASS" signature="PostCondition(org.testng.ITestResult)[pri:0, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333]" name="PostCondition" is-config="true" duration-ms="166" started-at="2019-01-15T06:29:10Z" finished-at="2019-01-15T06:29:10Z">
+        </test-method> <!-- testAddBooking -->
+        <test-method status="PASS" signature="PostCondition(org.testng.ITestResult)[pri:0, instance:com.RideallyStageVendor.tests.AddBookingTest@556333]" name="PostCondition" is-config="true" duration-ms="350" started-at="2019-01-28T05:06:08Z" finished-at="2019-01-28T05:06:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNewNumbBooking status=SUCCESS method=NewNumbBookingTest.testNewNumbBooking()[pri:4, instance:com.RideallyStageVendor.tests.NewNumbBookingTest@556333] output={null}]]]>
+                <![CDATA[[TestResult name=testAddBooking status=SUCCESS method=AddBookingTest.testAddBooking()[pri:3, instance:com.RideallyStageVendor.tests.AddBookingTest@556333] output=Element is not selectedConfirmed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostCondition -->
-      </class> <!-- com.RideallyStageVendor.tests.NewNumbBookingTest -->
+      </class> <!-- com.RideallyStageVendor.tests.AddBookingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

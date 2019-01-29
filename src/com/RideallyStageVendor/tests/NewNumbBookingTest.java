@@ -47,23 +47,25 @@ public class NewNumbBookingTest extends BaseTest{
 		Vp.SelectStartDate();
 		Thread.sleep(2000);
 		
-		Vp.SelectDepartTime();
+		Vp.SelectDepartTime(85);
 		Thread.sleep(2000);
 		
-		Vp.SelectReturnDate();
-		Vp.SelectReturnTime();
+		Vp.SelectReturnDate(3);
+		
+		Vp.SelectReturnTime(20);
+		
 		Vp.ACButton();
 		Thread.sleep(6000);
 		
 		Vp.MiniACBTN();
+		Vp.Coupon(1);
 		
-		Vp.SelectCreatedBy(4);
+		//Vp.SelectCreatedBy(4);
 		
-//		Vp.ConfirmButton();
-//		Thread.sleep(4000);
-//		
-//		Cb.CheckCofirmBooking();
-//		
+		Vp.ConfirmButton();
+		Thread.sleep(4000);
+		
+	Cb.CheckCofirmBooking();
+	
 	}
-
 }

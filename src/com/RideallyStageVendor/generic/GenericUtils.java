@@ -48,8 +48,8 @@ public static void SelecyByStartDate(WebElement driver)
 	Date date=new Date();
 	SimpleDateFormat s1=new SimpleDateFormat("d");
 	String day=s1.format(date);
-	SimpleDateFormat s2=new SimpleDateFormat("MMMM");
-	String month=s2.format(date);
+//	SimpleDateFormat s2=new SimpleDateFormat("MMMM");
+//	String month=s2.format(date);
 	String xp="//a[.='"+day+"']";
     driver.findElement(By.xpath(xp)).click();
 }

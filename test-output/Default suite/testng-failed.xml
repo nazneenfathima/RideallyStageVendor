@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RideallyStageVendor.tests.NewNumbBookingTest">
+      <class name="com.RideallyStageVendor.tests.AddBookingTest">
         <methods>
           <include name="PostCondition"/>
+          <include name="testAddBooking"/>
           <include name="PreCondition"/>
-          <include name="testNewNumbBooking"/>
         </methods>
-      </class> <!-- com.RideallyStageVendor.tests.NewNumbBookingTest -->
+      </class> <!-- com.RideallyStageVendor.tests.AddBookingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

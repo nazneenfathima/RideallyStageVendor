@@ -47,15 +47,15 @@ public class AddBookingTest extends BaseTest {
 		Vp.SelectStartDate();
 		Thread.sleep(2000);
 		
-		Vp.SelectDepartTime();
+		Vp.SelectDepartTime(90);
 		Thread.sleep(2000);
 		Vp.ACButton();
 		Thread.sleep(6000);
 		
 		Vp.MiniACBTN();
 		
-		
-		Vp.SelectCreatedBy(1);
+//		Vp.Coupon(1);
+//		Vp.SelectCreatedBy(1);
 	
 		Vp.ConfirmButton();
 		Thread.sleep(4000);
