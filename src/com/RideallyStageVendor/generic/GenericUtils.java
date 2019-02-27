@@ -6,6 +6,7 @@ import java.sql.Driver;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -14,6 +15,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 
 
 public class GenericUtils {
@@ -43,6 +45,12 @@ public static void SelectByVisbleText(WebElement element,String text)
 	Select sel=new Select(element);
 	sel.selectByVisibleText(text);
 }
+//public static void GetFirstSelectedOption(WebElement element)
+//{
+//	Select sel=new Select(element);
+//	 sel.getFirstSelectedOption();	
+//	
+//}
 public static void SelecyByStartDate(WebElement driver)
 {
 	Date date=new Date();

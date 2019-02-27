@@ -19,6 +19,7 @@ public class AddBookingTest extends BaseTest {
 		String Pass=ExcelData.getData(file_path, "TC01", 1, 1);
 		String Pickup=ExcelData.getData(file_path, "TC03", 1, 5);
 		String Drop=ExcelData.getData(file_path, "TC03", 1, 6);
+		String ABLRID=ExcelData.getData(file_path, "TC04", 1, 0);
 		
 		LoginPage lp=new LoginPage(driver);
 		BookingListPage bp=new BookingListPage(driver);
@@ -61,7 +62,9 @@ public class AddBookingTest extends BaseTest {
 		Thread.sleep(4000);
 		
 		Cb.CheckCofirmBooking();
-				
+	    //Cb.SelectDriverAttachment(ABLRID);
+		//Cb.CancelBooking(4);		
+	    //Cb.Ongoing();
 	}
 
 }

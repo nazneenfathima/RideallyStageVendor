@@ -34,17 +34,17 @@ public void VerifyTitle(String etitle)
 	}	
 }
 //To verify element
-public void VerifyElement(WebElement element)
+public void VerifyElement(WebElement element,String text)
 {
 	WebDriverWait wait=new WebDriverWait(driver, 10);
 	try
 	{
 	wait.until(ExpectedConditions.visibilityOf(element));
-	Reporter.log("Element is present", true);
+	Reporter.log("Element is present"+ text , true);
 	}
 	catch(Exception e)
 	{
-		Reporter.log("Element is not present..",true);
+		Reporter.log("Element is not present..", true);
 		Assert.fail();
 	}
 }

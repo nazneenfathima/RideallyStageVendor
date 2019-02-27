@@ -42,7 +42,7 @@ public class LoginPage extends BasePage
 	
 	public void verifyElementTitle()
 	{
-		VerifyElement(LoginPageTitle);
+		VerifyElement(LoginPageTitle,null);
 	 String text=LoginPageTitle.getText();
 	 Reporter.log("Element Name is:"+text,true);
 	}
@@ -63,7 +63,7 @@ public class LoginPage extends BasePage
 	
 	public String verifyErrorMessage()
 	{
-		VerifyElement(errormessage);
+		VerifyElement(errormessage,null);
 		String aErrMessage = errormessage.getText();
 		return aErrMessage;
 	}

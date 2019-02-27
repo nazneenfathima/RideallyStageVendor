@@ -39,7 +39,7 @@ public class BookingListPage extends BasePage
 	//Utilisation
 	public void verifyElementTitle()
 	{
-		VerifyElement(BookingTitle);
+		VerifyElement(BookingTitle,null);
 		String text=BookingTitle.getText();
 		 Reporter.log("Element Name is:"+text,true);
 	}

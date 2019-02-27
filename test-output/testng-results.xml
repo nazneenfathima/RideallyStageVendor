@@ -2,30 +2,144 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Element is not selectedConfirmed]]>
+      <![CDATA[Element is selected and now booking status is: Confirmed]]>
+    </line>
+    <line>
+      <![CDATA[Price details are: Customer To Pay 909 ( cash ) NOT PAID | Driver To Pay -762 NOT PAID]]>
+    </line>
+    <line>
+      <![CDATA[Base Price=699]]>
+    </line>
+    <line>
+      <![CDATA[Toll=0]]>
+    </line>
+    <line>
+      <![CDATA[Parking0]]>
+    </line>
+    <line>
+      <![CDATA[Coupon_Discount=0]]>
+    </line>
+    <line>
+      <![CDATA[Other_Discount=0]]>
+    </line>
+    <line>
+      <![CDATA[Others=0]]>
+    </line>
+    <line>
+      <![CDATA[Final_Cost=865.6]]>
+    </line>
+    <line>
+      <![CDATA[Tax=43]]>
+    </line>
+    <line>
+      <![CDATA[Final_Cost_WithCost=909]]>
+    </line>
+    <line>
+      <![CDATA[Invoice_Email=jahan7773@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[Invoice_Person_Name=Jahan M]]>
+    </line>
+    <line>
+      <![CDATA[Paid_by_Customer_To_RDLY=0]]>
+    </line>
+    <line>
+      <![CDATA[Customer_To_Pay=909]]>
+    </line>
+    <line>
+      <![CDATA[Commission_Taken_On=865.6]]>
+    </line>
+    <line>
+      <![CDATA[Base_Commission=104]]>
+    </line>
+    <line>
+      <![CDATA[Discount_to_driver=0]]>
+    </line>
+    <line>
+      <![CDATA[Paid_By_RDLY_To_Driver=0]]>
+    </line>
+    <line>
+      <![CDATA[Driver_To_Pay_To_Rdly-762]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42756" started-at="2019-01-28T05:05:25Z" finished-at="2019-01-28T05:06:08Z">
+  <suite name="Default suite" duration-ms="65551" started-at="2019-02-27T04:20:40Z" finished-at="2019-02-27T04:21:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42756" started-at="2019-01-28T05:05:25Z" finished-at="2019-01-28T05:06:08Z">
+    <test name="Default test" duration-ms="65551" started-at="2019-02-27T04:20:40Z" finished-at="2019-02-27T04:21:45Z">
       <class name="com.RideallyStageVendor.tests.AddBookingTest">
-        <test-method status="PASS" signature="PreCondition()[pri:0, instance:com.RideallyStageVendor.tests.AddBookingTest@556333]" name="PreCondition" is-config="true" duration-ms="6843" started-at="2019-01-28T05:05:25Z" finished-at="2019-01-28T05:05:32Z">
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:com.RideallyStageVendor.tests.AddBookingTest@556333]" name="PreCondition" is-config="true" duration-ms="8007" started-at="2019-02-27T04:20:40Z" finished-at="2019-02-27T04:20:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreCondition -->
-        <test-method status="PASS" signature="testAddBooking()[pri:3, instance:com.RideallyStageVendor.tests.AddBookingTest@556333]" name="testAddBooking" duration-ms="35539" started-at="2019-01-28T05:05:32Z" finished-at="2019-01-28T05:06:08Z">
+        <test-method status="PASS" signature="testAddBooking()[pri:3, instance:com.RideallyStageVendor.tests.AddBookingTest@556333]" name="testAddBooking" duration-ms="55181" started-at="2019-02-27T04:20:48Z" finished-at="2019-02-27T04:21:43Z">
           <reporter-output>
             <line>
-              <![CDATA[Element is not selectedConfirmed]]>
+              <![CDATA[Element is selected and now booking status is: Confirmed]]>
+            </line>
+            <line>
+              <![CDATA[Price details are: Customer To Pay 909 ( cash ) NOT PAID | Driver To Pay -762 NOT PAID]]>
+            </line>
+            <line>
+              <![CDATA[Base Price=699]]>
+            </line>
+            <line>
+              <![CDATA[Toll=0]]>
+            </line>
+            <line>
+              <![CDATA[Parking0]]>
+            </line>
+            <line>
+              <![CDATA[Coupon_Discount=0]]>
+            </line>
+            <line>
+              <![CDATA[Other_Discount=0]]>
+            </line>
+            <line>
+              <![CDATA[Others=0]]>
+            </line>
+            <line>
+              <![CDATA[Final_Cost=865.6]]>
+            </line>
+            <line>
+              <![CDATA[Tax=43]]>
+            </line>
+            <line>
+              <![CDATA[Final_Cost_WithCost=909]]>
+            </line>
+            <line>
+              <![CDATA[Invoice_Email=jahan7773@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[Invoice_Person_Name=Jahan M]]>
+            </line>
+            <line>
+              <![CDATA[Paid_by_Customer_To_RDLY=0]]>
+            </line>
+            <line>
+              <![CDATA[Customer_To_Pay=909]]>
+            </line>
+            <line>
+              <![CDATA[Commission_Taken_On=865.6]]>
+            </line>
+            <line>
+              <![CDATA[Base_Commission=104]]>
+            </line>
+            <line>
+              <![CDATA[Discount_to_driver=0]]>
+            </line>
+            <line>
+              <![CDATA[Paid_By_RDLY_To_Driver=0]]>
+            </line>
+            <line>
+              <![CDATA[Driver_To_Pay_To_Rdly-762]]>
             </line>
           </reporter-output>
         </test-method> <!-- testAddBooking -->
-        <test-method status="PASS" signature="PostCondition(org.testng.ITestResult)[pri:0, instance:com.RideallyStageVendor.tests.AddBookingTest@556333]" name="PostCondition" is-config="true" duration-ms="350" started-at="2019-01-28T05:06:08Z" finished-at="2019-01-28T05:06:08Z">
+        <test-method status="PASS" signature="PostCondition(org.testng.ITestResult)[pri:0, instance:com.RideallyStageVendor.tests.AddBookingTest@556333]" name="PostCondition" is-config="true" duration-ms="2343" started-at="2019-02-27T04:21:43Z" finished-at="2019-02-27T04:21:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAddBooking status=SUCCESS method=AddBookingTest.testAddBooking()[pri:3, instance:com.RideallyStageVendor.tests.AddBookingTest@556333] output=Element is not selectedConfirmed]]]>
+                <![CDATA[[TestResult name=testAddBooking status=SUCCESS method=AddBookingTest.testAddBooking()[pri:3, instance:com.RideallyStageVendor.tests.AddBookingTest@556333] output=Element is selected and now booking status is: Confirmed]]]>
               </value>
             </param>
           </params>

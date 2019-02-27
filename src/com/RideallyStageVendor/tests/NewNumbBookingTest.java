@@ -41,7 +41,7 @@ public class NewNumbBookingTest extends BaseTest{
 		Vp.PickupLoc(Pickup, Drop);
 		
 		
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		Vp.Outstation250();
 		
 		Vp.SelectStartDate();
@@ -66,6 +66,7 @@ public class NewNumbBookingTest extends BaseTest{
 		Thread.sleep(4000);
 		
 	Cb.CheckCofirmBooking();
+	
 	
 	}
 }

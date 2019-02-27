@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -13,8 +14,9 @@ public class BaseTest implements AutoConstant
 public WebDriver driver;
 static
 {
-	System.setProperty(chrome_key, chrome_value);
 	System.setProperty(gecko_key, gecko_value);
+	System.setProperty(chrome_key, chrome_value);
+	
 }
 @BeforeMethod
 public void PreCondition()
@@ -37,3 +39,6 @@ public void PostCondition(ITestResult res)
 	driver.close();
 }
 }
+
+
+
